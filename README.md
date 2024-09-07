@@ -30,13 +30,13 @@ import base from 'bscnvert';
 ````js
 const base = require('bscnvert');
 
-base.binary.toDecimal("1000"); // return 8
+base.binary.toDecimal('1000'); // return 8
 
 // or
 
 const { binary } = require('bscnvert');
 
-binary.toChar("01110100 01100101 01110011 01110100"); // return 'test'
+binary.toChar('01110100 01100101 01110011 01110100'); // return 'test'
 ````
 
 ## Running Tests
